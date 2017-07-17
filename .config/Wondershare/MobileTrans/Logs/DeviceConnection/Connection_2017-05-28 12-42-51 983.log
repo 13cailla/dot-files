@@ -1,0 +1,89 @@
+5/28/2017 12:42:51 AM BB : Begin Connection : SAMSUNG_SAMSUNG_Android_04E8_ce0417146d16181104
+5/28/2017 12:42:51 AM BB : Retry Info : 1-0-0
+5/28/2017 12:42:51 AM BB : ConnectionVersion = 2.6.1
+5/28/2017 12:42:51 AM BB : Connect_Type = USB
+5/28/2017 12:42:51 AM BB : Connect_Sign =  20170528 004251 988
+5/28/2017 12:42:51 AM BB : HardID:IOService:/IOResources/AppleUSBHostResources/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/SAMSUNG_Android@14500000
+5/28/2017 12:42:51 AM BB : InstanceID:IOService:/IOResources/AppleUSBHostResources/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/SAMSUNG_Android@14500000
+5/28/2017 12:42:51 AM BB : CompatibleID:00-00-00
+5/28/2017 12:42:51 AM BB : Connect_Step = Checking
+5/28/2017 12:42:51 AM BB : Waiting for pending install event...
+5/28/2017 12:42:52 AM BB : Connect_PrepareStatus = BB, CB
+5/28/2017 12:42:52 AM BB : skipDrivers : False
+5/28/2017 12:42:52 AM BB : Step = Step_USBDebug Status = 0 Info = waiting
+5/28/2017 12:42:52 AM BB : Connect_Step = WaitReady
+5/28/2017 12:42:52 AM BB : Connect_Step = NeedDebuggingMode
+5/28/2017 12:42:52 AM BB : Connect_Step = NeedDebuggingMode
+5/28/2017 12:42:57 AM BB : Connect_Step = NeedDebuggingMode
+5/28/2017 12:43:51 AM BB : Step = Step_USBDebug Status = 0 Info = success
+5/28/2017 12:43:51 AM BB : Connect_Step = Checking
+5/28/2017 12:43:51 AM BB : Connect_PrepareStatus = DB
+5/28/2017 12:43:51 AM BB : Connect_Step = WaitReady
+5/28/2017 12:43:53 AM BB : Connect_AdbStatus = BB
+5/28/2017 12:43:53 AM BB : Connect_Step = NeedAuth
+5/28/2017 12:43:53 AM BB : Step = Step_Auth Status = 0 Info = wait
+5/28/2017 12:43:53 AM BB : Connect_AdbStatus = BB
+5/28/2017 12:43:53 AM BB : Connect_Step = NeedAuth
+5/28/2017 12:43:53 AM BB : Step = Step_Auth Status = 0 Info = wait
+5/28/2017 12:43:54 AM BB : Connect_AdbStatus = CB
+5/28/2017 12:43:54 AM BB : Connect_Step = Ready
+5/28/2017 12:43:54 AM BB : Step = Step_Auth Status = 0 Info = success
+5/28/2017 12:43:54 AM BB : Device_Version = 7.0
+5/28/2017 12:43:54 AM BB : using daemon : com.wondershare.mobilego.connector
+5/28/2017 12:43:54 AM BB : DaemonName = com.wondershare.mobilego.connector
+5/28/2017 12:43:54 AM BB : tryCount : 0
+5/28/2017 12:43:54 AM BB : start daemon...
+5/28/2017 12:43:54 AM BB : Connect_Step = StartDaemon
+5/28/2017 12:43:55 AM BB : Step = Step_DaemonConnect Status = 1 Info = start daemon
+5/28/2017 12:43:57 AM BB : tryCount : 1
+5/28/2017 12:43:57 AM BB : retry connect : 1
+5/28/2017 12:43:57 AM BB : start daemon...
+5/28/2017 12:43:57 AM BB : Connect_Step = StartDaemon
+5/28/2017 12:43:58 AM BB : Step = Step_DaemonConnect Status = 1 Info = start daemon
+5/28/2017 12:43:58 AM FB : daemon start failed
+5/28/2017 12:43:58 AM BB : Connect_Step = InstallDaemon
+5/28/2017 12:44:03 AM BB : Step = Step_DaemonInstall Status = 8 Info = MGDaemon.apk:Error
+5/28/2017 12:44:06 AM BB : Connect_Step = InstallDaemon
+5/28/2017 12:44:09 AM BB : Step = Step_DaemonInstall Status = 8 Info = MGDaemon.apk:Error
+5/28/2017 12:44:11 AM BB : tryCount : 2
+5/28/2017 12:44:11 AM BB : retry connect : 2
+5/28/2017 12:44:11 AM BB : start daemon...
+5/28/2017 12:44:11 AM BB : Connect_Step = StartDaemon
+5/28/2017 12:44:12 AM BB : Step = Step_DaemonConnect Status = 0 Info = start daemon
+5/28/2017 12:44:13 AM BB : Connect_Step = StartSession
+5/28/2017 12:44:13 AM BB : Step = Step_DaemonConnect Status = 0 Info = ConnectUsbCommandChannel
+5/28/2017 12:44:14 AM BB : DaemonVersion = 1.0.1.431
+5/28/2017 12:44:14 AM BB : Connect_Step = LoadInfo
+5/28/2017 12:44:14 AM BB : Step = Step_DaemonConnect Status = 0 Info = LoadInfo
+5/28/2017 12:44:14 AM BB : Connect_Step = Finished
+5/28/2017 12:44:14 AM BB : Step = Step_DaemonConnect Status = 0 Info = success
+5/28/2017 12:44:14 AM BB : Connect_Status = Online
+5/28/2017 12:44:14 AM BB : Connect_PrepareStatus = DB
+5/28/2017 12:44:14 AM BB : usbInfo.WorkingMode = Normal
+5/28/2017 12:44:14 AM BB : connection.Status = Online
+5/28/2017 12:44:14 AM BB : ======== Mobile Info ========
+5/28/2017 12:44:14 AM BB : Device_Platform = Android
+5/28/2017 12:44:14 AM BB : Device_UDID = 04E8-ce0417146d16181104-
+5/28/2017 12:44:14 AM BB : Device_HardID = IOService:/IOResources/AppleUSBHostResources/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/SAMSUNG_Android@14500000
+5/28/2017 12:44:14 AM BB : Device_VID = 04E8
+5/28/2017 12:44:14 AM BB : Device_PID = 6860
+5/28/2017 12:44:14 AM BB : Device_Brand = Samsung
+5/28/2017 12:44:14 AM BB : Device_Model = SM-G950F
+5/28/2017 12:44:14 AM BB : Device_Version = 7.0
+5/28/2017 12:44:14 AM BB : Connect_Time = 82
+5/28/2017 12:44:14 AM BB : ======== OS Info ========
+5/28/2017 12:44:14 AM BB : os_name = AB
+5/28/2017 12:44:14 AM BB : os_version = 16.5.0
+5/28/2017 12:44:14 AM BB : os_version_build = 0
+5/28/2017 12:44:14 AM BB : os_bits = 32
+5/28/2017 12:44:14 AM BB : Connect_Status = Online
+5/28/2017 12:44:14 AM BB : Connect_Cancel = success
+5/28/2017 12:44:14 AM BB : Connect_Result = success
+5/28/2017 12:44:14 AM BB : Retry Info : 1-1-0-success
+5/28/2017 12:44:14 AM BB : Status Info : Online, , False, success
+5/28/2017 12:44:14 AM BB : End Connection : SAMSUNG_SAMSUNG_Android_04E8_ce0417146d16181104
+5/28/2017 12:44:14 AM BB : ======== Step Info ========
+5/28/2017 12:44:14 AM BB : Step_USBDebug = 0 : success
+5/28/2017 12:44:14 AM BB : Step_Auth = 0 : success
+5/28/2017 12:44:14 AM BB : Step_DaemonConnect = 0 : success
+5/28/2017 12:44:14 AM BB : Step_DaemonInstall = 8 : MGDaemon.apk:Error

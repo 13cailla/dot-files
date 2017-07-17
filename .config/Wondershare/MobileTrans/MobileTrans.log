@@ -1,0 +1,248 @@
+ICloudManager Init
+<MT_iCloud> GetDownloadedInfo...
+ResetStatisticsInfo
+<IiCloudManager> Login...
+<MT_iCloud> Start Login...AppleId: mnk_400@yahoo.com
+<MT_iCloud> End Login...Result: True
+<IiCloudManager> GetBackupFiles...
+<MT_iCloud> Start GetBackupList... AppleId is mnk_400@yahoo.com
+ICloudManager StartGetBackupInfo inc Start
+ICloudManager StartGetBackupInfo inc End
+BeginGetICloudInfo
+GetICloudInfoProgress:0
+GetICloudInfoFailure
+<MT_iCloud> End GetBackupList...
+<MT_iCloud> GetBackupInfoCallBackup files.Count= 0
+ConnectionHub.FoundDevice
+	Id=IOService:/IOResources/AppleUSBHostResources/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/SAMSUNG_Android@14500000
+	Manufacturer=SAMSUNG
+	Product=SAMSUNG_Android
+	SN=ce0417146d16181104
+	VID=1256
+	PID=26720
+	Class=0
+	SubClass=0
+	Protocol=0
+	Manufacturer=Samsung
+	Model=Android Device
+Added!
+ConnectionHub.AddConnection(IOService:/IOResources/AppleUSBHostResources/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/SAMSUNG_Android@14500000)
+LogPath = /Users/manik/.config/Wondershare/MobileTrans/Logs/DeviceConnection/Connection.Log
+DCDC : Begin Connection : SAMSUNG_SAMSUNG_Android_04E8_ce0417146d16181104
+DCDC : Retry Info : 1-0-0
+DCDC : ConnectionVersion = 2.6.1
+DCDC : Connect_Type = USB
+DCDC : Connect_Sign =  20170528 004251 988
+DCDC : HardID:IOService:/IOResources/AppleUSBHostResources/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/SAMSUNG_Android@14500000
+DCDC : InstanceID:IOService:/IOResources/AppleUSBHostResources/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/SAMSUNG_Android@14500000
+DCDC : CompatibleID:00-00-00
+DCDC : Connect_Step = Checking
+DCDC : Waiting for pending install event...
+DCDC : Connect_PrepareStatus = BB, CB
+DCDC : skipDrivers : False
+DCDC : Step = Step_USBDebug Status = 0 Info = waiting
+DCDC : Connect_Step = WaitReady
+DCDC : Connect_Step = NeedDebuggingMode
+DCDC : Connect_Step = NeedDebuggingMode
+DCDC : Connect_Step = NeedDebuggingMode
+ConnectionHub.RemoveConnection(IOService:/IOResources/AppleUSBHostResources/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/SAMSUNG_Android@14500000)
+DCDC : Step = Step_USBDebug Status = 0 Info = success
+DCDC : Connect_Step = Checking
+DCDC : Connect_PrepareStatus = DB
+DCDC : Connect_Step = WaitReady
+cannot connect to daemon
+System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+  at A.PC.I () [0x00000] in <filename unknown>:0 
+connect to daemon error. Connection refused
+* daemon not running. starting it now on port 5037
+* daemon started successfully
+ResetStatisticsInfo
+ConnectionHub.FoundDevice
+	Id=IOService:/IOResources/AppleUSBHostResources/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/SAMSUNG_Android@14500000
+	Manufacturer=SAMSUNG
+	Product=SAMSUNG_Android
+	SN=ce0417146d16181104
+	VID=1256
+	PID=26720
+	Class=0
+	SubClass=0
+	Protocol=0
+adb:> host:devices
+adb:< ce0417146d16181104	unauthorized
+
+adb:> host:devices
+adb:< ce0417146d16181104	unauthorized
+
+DCDC : Connect_AdbStatus = BB
+adb:> host:retry-auth:ce0417146d16181104
+DCDC : Connect_Step = NeedAuth
+DCDC : Step = Step_Auth Status = 0 Info = wait
+adb:> host-serial:ce0417146d16181104:get-state
+adb:< unauthorized
+adb:> host-serial:ce0417146d16181104:get-state
+adb:< unauthorized
+OnADBStatus State: unauthorized
+DCDC : Connect_AdbStatus = BB
+OnADBStatus NeedAuth
+DCDC : Connect_Step = NeedAuth
+DCDC : Step = Step_Auth Status = 0 Info = wait
+adb:> host-serial:ce0417146d16181104:get-state
+adb:< unauthorized
+adb:> host-serial:ce0417146d16181104:get-state
+adb:< device
+OnADBStatus State: device
+DCDC : Connect_AdbStatus = CB
+DCDC : Connect_Step = Ready
+DCDC : Step = Step_Auth Status = 0 Info = success
+adb:> host:transport:ce0417146d16181104
+adb:> shell:getprop ro.product.model
+adb:< SM-G950F
+adb:> host:transport:ce0417146d16181104
+adb:> shell:getprop ro.build.version.release
+adb:< 7.0
+adb:> host:transport:ce0417146d16181104
+adb:> shell:getprop ro.product.brand
+adb:< samsung
+DCDC : Device_Version = 7.0
+DCDC : using daemon : com.wondershare.mobilego.connector
+DCDC : DaemonName = com.wondershare.mobilego.connector
+tryCount : 0
+DCDC : tryCount : 0
+start daemon...
+DCDC : start daemon...
+DCDC : Connect_Step = StartDaemon
+adb:> host:transport:ce0417146d16181104
+adb:> shell:am start -a wondershare.intent.action.connect
+adb:< Starting: Intent { act=wondershare.intent.action.connect launchParam=MultiScreenLaunchParams { mDisplayId=0 mBaseDisplayId=0 mFlags=0 } }
+adb:< Error: Activity not started, unable to resolve Intent { act=wondershare.intent.action.connect flg=0x10000000 launchParam=MultiScreenLaunchParams { mDisplayId=0 mBaseDisplayId=0 mFlags=0 } }
+DCDC : Step = Step_DaemonConnect Status = 1 Info = start daemon
+tryCount : 1
+DCDC : tryCount : 1
+DCDC : retry connect : 1
+start daemon...
+DCDC : start daemon...
+DCDC : Connect_Step = StartDaemon
+adb:> host:transport:ce0417146d16181104
+adb:> shell:am start -a wondershare.intent.action.connect
+adb:< Starting: Intent { act=wondershare.intent.action.connect launchParam=MultiScreenLaunchParams { mDisplayId=0 mBaseDisplayId=0 mFlags=0 } }
+adb:< Error: Activity not started, unable to resolve Intent { act=wondershare.intent.action.connect flg=0x10000000 launchParam=MultiScreenLaunchParams { mDisplayId=0 mBaseDisplayId=0 mFlags=0 } }
+DCDC : Step = Step_DaemonConnect Status = 1 Info = start daemon
+daemon start failed
+DCDC : daemon start failed
+adb:> host:transport:ce0417146d16181104
+adb:> shell:pm uninstall com.wondershare.mobilego.connector
+adb:< Failure [DELETE_FAILED_INTERNAL_ERROR]
+ADB uninstall App: failure [delete_failed_internal_error]
+DCDC : Connect_Step = InstallDaemon
+installing app : MGDaemon.apk
+adb:> host:transport:ce0417146d16181104
+adb:> shell:df /data
+adb:< Filesystem      1K-blocks    Used Available Use% Mounted on
+adb:< /dev/block/dm-1  56601920 2065196  54508804   4% /data
+adb:> host:transport:ce0417146d16181104
+adb:> shell:df /sdcard
+adb:< Filesystem     1K-blocks    Used Available Use% Mounted on
+adb:< /data/media     56581440 2093116  54488324   4% /storage/emulated
+adb:> host:transport:ce0417146d16181104
+adb:> sync:
+5300.8 KB/s (417448 bytes in 0.077s)
+adb:> host:transport:ce0417146d16181104
+adb:> shell:getprop ro.build.version.sdk
+adb:< 24
+adb:> host:transport:ce0417146d16181104
+adb:> shell:pm install -r -d -f "/data/local/tmp/{645ddf8d-90a4-4a24-a80f-c19f9f287a5b}.apk"
+ResetStatisticsInfo
+adb:< Success
+adb:> host:transport:ce0417146d16181104
+adb:> shell:rm -f /data/local/tmp/{645ddf8d-90a4-4a24-a80f-c19f9f287a5b}.apk
+DCDC : Step = Step_DaemonInstall Status = 8 Info = MGDaemon.apk:Error
+<IiCloudManager> Login...
+<MT_iCloud> Start Login...AppleId: mnk_400@yahoo.com
+installing app : MGDaemon.apk
+DCDC : Connect_Step = InstallDaemon
+adb:> host:transport:ce0417146d16181104
+adb:> shell:df /data
+adb:< Filesystem      1K-blocks    Used Available Use% Mounted on
+adb:< /dev/block/dm-1  56601920 2066692  54507308   4% /data
+adb:> host:transport:ce0417146d16181104
+adb:> shell:df /sdcard
+adb:< Filesystem     1K-blocks    Used Available Use% Mounted on
+adb:< /data/media     56581440 2094612  54486828   4% /storage/emulated
+adb:> host:transport:ce0417146d16181104
+adb:> sync:
+9570.4 KB/s (417448 bytes in 0.043s)
+adb:> host:transport:ce0417146d16181104
+adb:> shell:pm install -r -d -f "/data/local/tmp/{57b67910-e970-4d79-9f65-fb851429fb21}.apk"
+adb:< Success
+<MT_iCloud> End Login...Result: True
+<IiCloudManager> GetBackupFiles...
+<MT_iCloud> Start GetBackupList... AppleId is mnk_400@yahoo.com
+ICloudManager StartGetBackupInfo inc Start
+ICloudManager StartGetBackupInfo inc End
+BeginGetICloudInfo
+GetICloudInfoProgress:0
+adb:> host:transport:ce0417146d16181104
+adb:> shell:rm -f /data/local/tmp/{57b67910-e970-4d79-9f65-fb851429fb21}.apk
+DCDC : Step = Step_DaemonInstall Status = 8 Info = MGDaemon.apk:Error
+tryCount : 2
+DCDC : tryCount : 2
+DCDC : retry connect : 2
+start daemon...
+DCDC : start daemon...
+DCDC : Connect_Step = StartDaemon
+adb:> host:transport:ce0417146d16181104
+adb:> shell:am start -a wondershare.intent.action.connect
+GetICloudInfoFailure
+<MT_iCloud> End GetBackupList...
+<MT_iCloud> GetBackupInfoCallBackup files.Count= 0
+adb:< Starting: Intent { act=wondershare.intent.action.connect launchParam=MultiScreenLaunchParams { mDisplayId=0 mBaseDisplayId=0 mFlags=0 } }
+DCDC : Step = Step_DaemonConnect Status = 0 Info = start daemon
+DCDC : Connect_Step = StartSession
+adb:> host-serial:ce0417146d16181104:list-forward
+adb:> host-serial:ce0417146d16181104:forward:tcp:7867;tcp:7867
+adb:< OKAY
+ADB Forward : 7867 okay
+S: <session connectmode="USB" port="0" product="MobileTrans">
+R: <session>
+DCDC : Step = Step_DaemonConnect Status = 0 Info = ConnectUsbCommandChannel
+command channel connected!
+S: <iq type="get" id="PC1" ><query ns="daemon"/></iq>
+R: <iq type="response" id="PC1" ></iq>
+DCDC : DaemonVersion = 1.0.1.431
+DCDC : Connect_Step = LoadInfo
+S: <iq type="get" id="PC2" ><query ns="deviceinfo"/></iq>
+R: <iq type="response" id="PC2" ></iq>
+adb:> host:transport:ce0417146d16181104
+adb:> shell:getprop persist.sys.timezone
+adb:< Asia/Kolkata
+DCDC : Step = Step_DaemonConnect Status = 0 Info = LoadInfo
+S: <iq type="get" id="PC3" ><query ns="storageinfo"/></iq>
+R: <iq type="response" id="PC3" ></iq>
+DCDC : Connect_Step = Finished
+DCDC : Step = Step_DaemonConnect Status = 0 Info = success
+DCDC : Connect_Status = Online
+DCDC : Connect_PrepareStatus = DB
+DCDC : usbInfo.WorkingMode = Normal
+DCDC : connection.Status = Online
+ResetStatisticsInfo
+DCDC : Device_Platform = Android
+DCDC : Device_UDID = 04E8-ce0417146d16181104-
+DCDC : Device_HardID = IOService:/IOResources/AppleUSBHostResources/AppleUSBLegacyRoot/AppleUSBXHCI@14000000/SAMSUNG_Android@14500000
+DCDC : Device_VID = 04E8
+DCDC : Device_PID = 6860
+DCDC : Device_Brand = Samsung
+DCDC : Device_Model = SM-G950F
+DCDC : Device_Version = 7.0
+DCDC : Connect_Time = 82
+DCDC : os_name = AB
+DCDC : os_version = 16.5.0
+DCDC : os_version_build = 0
+DCDC : os_bits = 32
+DCDC : Connect_Status = Online
+DCDC : Connect_Cancel = success
+DCDC : Connect_Result = success
+DCDC : Step_USBDebug = 0 : success
+DCDC : Step_Auth = 0 : success
+DCDC : Step_DaemonConnect = 0 : success
+DCDC : Step_DaemonInstall = 8 : MGDaemon.apk:Error
