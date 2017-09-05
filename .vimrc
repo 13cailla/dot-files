@@ -38,8 +38,8 @@ hi NonText ctermfg=237
 hi LineNr ctermfg=239
 hi PreProc ctermfg=blue
 hi Type ctermfg=green
-hi Constant ctermfg=red
-hi Identifier ctermfg=magenta
+hi Constant ctermfg=magenta
+hi Identifier ctermfg=red
 
 set statusline=%=%P\ %f\ %m
 set fillchars=vert:\ ,stl:\ ,stlnc:\ 
