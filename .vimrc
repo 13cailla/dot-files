@@ -40,7 +40,24 @@ hi PreProc ctermfg=blue
 hi Type ctermfg=green
 hi Constant ctermfg=magenta
 hi Identifier ctermfg=red
+hi StartifyNumber ctermfg=red
+hi StartifyFile ctermfg=magenta
+hi StartifyBracket ctermfg=red
+hi StartifyHeader ctermfg=red
 
+let g:startify_custom_header = [
+\'                                 ___     ' ,
+\'      ___            ___        /  /\    ' ,
+\'     /  /\          /__/\      /  /::|   ' ,
+\'    /  /:/          \__\:\    /  /:|:|   ' ,
+\'   /  /:/           /  /::\  /  /:/|:|__ ' , 
+\'  /__/:/  ___    __/  /:/\/ /__/:/_|::::\' ,
+\'  |  |:| /  /\  /__/\/:/~~  \__\/  /~~/:/' ,
+\'  |  |:|/  /:/  \  \::/           /  /:/ ' , 
+\'  |__|:|__/:/    \  \:\          /  /:/  ' ,
+\'   \__\::::/      \__\/         /__/:/   ' ,
+\'       ~~~~                     \__\/    ' ,
+\]
 set statusline=%=%P\ %f\ %m
 set fillchars=vert:\ ,stl:\ ,stlnc:\ 
 set laststatus=2
