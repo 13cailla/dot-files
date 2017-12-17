@@ -4,6 +4,6 @@ Only contains important stuff and related to the terminal, not everything. Dot f
 
 ![](https://i.imgur.com/VGetzxJ.png)
 
-![](https://i.imgur.com/uwR247o.png)
+![](https://i.imgur.com/mwvJssS.png)
  
 
