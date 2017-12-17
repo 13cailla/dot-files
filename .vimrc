@@ -22,6 +22,7 @@ highlight Pmenu guifg=#1a1a1a guibg=#98b1c7
 set backspace=2
 syntax on
 set number
+set relativenumber
 let NERDTreeIgnore=['.DS_Store']
 let NERDTreeHighlightCursorline=0
 execute pathogen#infect()
@@ -32,6 +33,7 @@ hi StatusLineNC ctermfg=black ctermbg=237
 hi Search ctermbg=58 ctermfg=15
 hi Default ctermfg=4
 hi clear SignColumn
+hi Terminal guibg=red guifg=red
 hi SignColumn ctermbg=235
 hi Directory guifg=#FF0000 ctermfg=cyan
 hi SignColumn ctermbg=235
@@ -54,9 +56,13 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:airline_theme='minimalist'
+let g:NERDTreeWinPos = "right"
 
 call plug#begin('~/.vim/plugged')
 Plug 'metakirby5/codi.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 let g:startify_custom_header = [
