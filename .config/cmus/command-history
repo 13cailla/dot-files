@@ -1,9 +1,8 @@
 q
-colorscheme night
-colorscheme night.theme
-colorscheme cyan
-colorscheme simple
-Q
-add Soulseek Downloads
-add Downloads
-add Music/music
+a music/music
+clear
+colorscheme cmustheme
+colorscheme xterm-white
+colorscheme
+radiohead
+add /users/manik/music/music

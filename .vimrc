@@ -47,6 +47,9 @@ hi StartifyNumber ctermfg=red
 hi StartifyFile ctermfg=magenta
 hi StartifyBracket ctermfg=red
 hi StartifyHeader ctermfg=red
+hi TabLineFill ctermfg=black ctermbg=black
+hi TabLine ctermfg=gray ctermbg=black
+hi TabLineSel ctermfg=blue ctermbg=black
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -64,6 +67,9 @@ Plug 'metakirby5/codi.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
+
+nnoremap <S-N> :tabprevious<CR>
+nnoremap <S-M> :tabnext<CR>
 
 let g:startify_custom_header = [
 \'                                 ___     ' ,
