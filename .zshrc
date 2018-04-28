@@ -53,8 +53,9 @@ export UPDATE_ZSH_DAYS=13
 plugins=(git)
 plugins=(zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
+source ~/.cargo/env
 
-
+alias fcuk='fuck'
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
